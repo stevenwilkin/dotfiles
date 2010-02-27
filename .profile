@@ -18,3 +18,11 @@ function saa {
 }
 
 alias st="svn st"
+
+# screen on OS X
+alias screen='export SCREENPWD=$(pwd); /usr/bin/screen'
+case "$TERM" in 
+	'screen')
+		 cd $SCREENPWD
+		 ;; 
+esac
