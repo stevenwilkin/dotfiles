@@ -1,0 +1,9 @@
+[user]
+	name = Steven Wilkin
+	email = stevenwilkin@gmail.com
+[core]
+	excludesfile = /home/steve/.gitignore
+[alias]
+	ci = commit
+	co = checkout
+	st = status
