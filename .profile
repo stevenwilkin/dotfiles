@@ -12,6 +12,12 @@ if [ -d ~/bin ] ; then
     PATH=~/bin:"${PATH}"
 fi
 
+# git
+alias gs='git status'
+alias ga='git add'
+alias gd='git diff'
+alias gc='git commit'
+
 # svn
 function saa {
     svn st | grep '^?' | awk '{print $2}' | xargs svn add 
