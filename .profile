@@ -20,6 +20,9 @@ alias hg='history | grep'
 alias ll='ls -l'
 alias la='ls -la'
 
+# df
+alias dh='df -h'
+
 # git
 alias gs='git status'
 alias ga='git add'
