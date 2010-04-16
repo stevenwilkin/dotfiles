@@ -12,6 +12,14 @@ if [ -d ~/bin ] ; then
     PATH=~/bin:"${PATH}"
 fi
 
+# grep
+alias pg='ps waux | grep -v grep | grep'
+alias hg='history | grep'
+
+# ls
+alias ll='ls -l'
+alias la='ls -la'
+
 # git
 alias gs='git status'
 alias ga='git add'
@@ -24,6 +32,8 @@ function saa {
 }
 
 alias st="svn st"
+
+export SVN_EDITOR=svneditor
 
 # screen on OS X
 alias screen='export SCREENPWD=$(pwd); /usr/bin/screen'
