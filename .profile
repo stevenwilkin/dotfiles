@@ -16,6 +16,10 @@ fi
 alias pg='ps waux | grep -v grep | grep'
 alias hg='history | grep'
 
+function sg {
+	grep -r $1 * | grep -v svn
+}
+
 # ls
 alias ll='ls -l'
 alias la='ls -la'
