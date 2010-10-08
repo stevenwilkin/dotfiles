@@ -39,6 +39,7 @@ function saa {
 }
 
 alias st="svn st"
+alias sd="svn diff | less"
 
 export SVN_EDITOR=svneditor
 
