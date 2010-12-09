@@ -21,10 +21,19 @@ au BufNewFile,BufRead *.ctp setfiletype php
 
 " capistrano
 au BufNewFile,BufRead [cC]apfile  setfiletype ruby
-au BufNewFile,BufRead *.erb  setfiletype ruby
-
-" haml
-au! BufRead,BufNewFile *.haml  setfiletype haml 
 
 " python
 au BufRead,BufNewFile *.py set expandtab
+
+" ruby
+au BufRead,BufNewFile *.rb set expandtab tabstop=2
+au BufRead,BufNewFile *.rake set expandtab tabstop=2
+au BufNewFile,BufRead Gemfile setfiletype ruby
+au BufNewFile,BufRead *.erb  setfiletype ruby
+
+" haml
+au BufRead,BufNewFile *.haml setfiletype haml 
+au BufRead,BufNewFile *.haml set expandtab tabstop=2
+
+" sass
+au BufRead,BufNewFile *.sass set expandtab tabstop=2
