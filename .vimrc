@@ -2,6 +2,7 @@ set nocompatible
 
 " Text Formatting
 set tabstop=4
+set shiftwidth=4
 set nowrap      " don't wrap lines
 set autoindent
 
