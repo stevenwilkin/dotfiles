@@ -30,7 +30,9 @@ au BufRead,BufNewFile *.py set expandtab
 au BufRead,BufNewFile *.rb set expandtab tabstop=2
 au BufRead,BufNewFile *.rake set expandtab tabstop=2
 au BufNewFile,BufRead Gemfile setfiletype ruby
-au BufNewFile,BufRead *.erb  setfiletype ruby
+au BufRead,BufNewFile Gemfile set expandtab tabstop=2
+au BufNewFile,BufRead *.erb setfiletype ruby 
+au BufRead,BufNewFile *.erb set expandtab tabstop=2
 
 " haml
 au BufRead,BufNewFile *.haml setfiletype haml 
