@@ -50,3 +50,6 @@ case "$TERM" in
 		 cd $SCREENPWD
 		 ;; 
 esac
+
+# ruby version manager
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
