@@ -53,3 +53,6 @@ esac
 
 # ruby version manager
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# bundler
+alias be="bundle exec"
