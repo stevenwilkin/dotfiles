@@ -76,6 +76,9 @@ termcapinfo   xterm 'XC=K%,%\E(B,[\304,\\\\\326,]\334,{\344,|\366,}\374,~\337'
 # - uses background color for delete operations
 termcapinfo xterm* be
 
+# scrollback in Lion
+termcapinfo xterm* ti@:te@
+
 ################
 #
 # wyse terminals
