@@ -1,6 +1,8 @@
 # MacPorts 
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
+export EDITOR=vi
+
 # ssh-agent
 [  -z "$SSH_CLIENT" ] && . $HOME/.ssh-agent
 alias keyon="ssh-add -t 10800"
