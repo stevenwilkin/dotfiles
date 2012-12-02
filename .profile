@@ -1,5 +1,5 @@
-# MacPorts 
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# HomeBrew
+export PATH=/usr/local/bin:$PATH
 
 export EDITOR=vi
 
