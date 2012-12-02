@@ -6,7 +6,7 @@ set shiftwidth=4
 set nowrap      " don't wrap lines
 set autoindent
 
-set backspace=2
+set backspace=indent,eol,start  " backspace through everything in insert mode
 set showmatch
 
 syntax on       " syntax highlighting
