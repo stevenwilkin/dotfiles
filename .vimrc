@@ -47,3 +47,6 @@ au BufRead,BufNewFile *.haml set expandtab tabstop=2
 
 " sass
 au BufRead,BufNewFile *.sass set expandtab tabstop=2
+
+" javascript
+au BufRead,BufNewFile *.js set expandtab tabstop=4
