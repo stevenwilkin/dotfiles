@@ -17,6 +17,9 @@ set ruler       " show current position
 set background=dark
 colorscheme solarized
 
+set ignorecase                  " searches are case insensitive...
+set smartcase                   " ... unless they contain at least one capital letter
+
 " synatx highlighting for CakePHP view templates
 au BufNewFile,BufRead *.thtml setfiletype php
 au BufNewFile,BufRead *.ctp setfiletype php
