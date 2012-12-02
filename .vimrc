@@ -31,12 +31,15 @@ au BufNewFile,BufRead [cC]apfile  setfiletype ruby
 au BufRead,BufNewFile *.py set expandtab
 
 " ruby
-au BufRead,BufNewFile *.rb set expandtab tabstop=2
-au BufRead,BufNewFile *.rake set expandtab tabstop=2
+au BufRead,BufNewFile *.rb set expandtab tabstop=2 shiftwidth=2
+au BufRead,BufNewFile *.rake set expandtab tabstop=2 shiftwidth=2
+au BufRead,BufNewFile Rakefile set expandtab tabstop=2 shiftwidth=2
 au BufNewFile,BufRead Gemfile setfiletype ruby
-au BufRead,BufNewFile Gemfile set expandtab tabstop=2
+au BufRead,BufNewFile Gemfile set expandtab tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.erb setfiletype ruby 
-au BufRead,BufNewFile *.erb set expandtab tabstop=2
+au BufRead,BufNewFile *.erb set expandtab tabstop=2 shiftwidth=2
+au BufNewFile,BufRead config.ru setfiletype ruby
+au BufRead,BufNewFile config.ru set expandtab tabstop=2 shiftwidth=2
 
 " haml
 au BufRead,BufNewFile *.haml setfiletype haml 
