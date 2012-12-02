@@ -56,3 +56,10 @@ esac
 
 # bundler
 alias be="bundle exec"
+function bo {
+	cd `bundle show $1`
+}
+
+# rails
+alias s='./script/rails server'
+alias c='./script/rails console'
