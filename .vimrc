@@ -14,7 +14,8 @@ syntax on       " syntax highlighting
 set number      " line numbers
 set ruler       " show current position
 
-set background=light
+set background=dark
+colorscheme solarized
 
 " synatx highlighting for CakePHP view templates
 au BufNewFile,BufRead *.thtml setfiletype php
