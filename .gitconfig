@@ -2,7 +2,7 @@
 	name = Steven Wilkin
 	email = stevenwilkin@gmail.com
 [core]
-	excludesfile = ~steve/.gitignore
+	excludesfile = $HOME/.gitignore
 [alias]
 	ci = commit
 	co = checkout
