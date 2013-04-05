@@ -8,3 +8,5 @@
 	co = checkout
 	st = status
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit --color
+[color]
+	ui = true
