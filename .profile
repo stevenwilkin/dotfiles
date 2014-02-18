@@ -53,8 +53,8 @@ case "$TERM" in
 		 ;; 
 esac
 
-# ruby version manager
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# rbenv
+eval "$(rbenv init -)"
 
 # bundler
 alias be="bundle exec"
