@@ -68,3 +68,7 @@ PATH="./.bundle/bin:$PATH"
 # rails
 alias s='./script/rails server'
 alias c='./script/rails console'
+
+# search bash history with up/down arrow
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
