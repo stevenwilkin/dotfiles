@@ -62,6 +62,9 @@ function bo {
 	cd `bundle show $1`
 }
 
+# bundle binstubs
+PATH="./.bundle/bin:$PATH"
+
 # rails
 alias s='./script/rails server'
 alias c='./script/rails console'
