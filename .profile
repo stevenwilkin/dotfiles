@@ -4,6 +4,16 @@ export PATH=/usr/local/bin:$PATH
 # npm
 export PATH=/usr/local/share/npm/bin:$PATH
 
+# Go
+export GOPATH=~/code/go
+export PATH=~/code/go/bin:$PATH
+
+# Go1.4beta1
+export PATH=/usr/local/go/bin:$PATH
+
+# Go AppEngine
+export PATH=~/packages/google_appengine/go_appengine:$PATH
+
 export EDITOR=vi
 
 # ssh-agent
