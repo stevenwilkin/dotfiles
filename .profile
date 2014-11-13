@@ -1,6 +1,9 @@
 # HomeBrew
 export PATH=/usr/local/bin:$PATH
 
+# npm
+export PATH=/usr/local/share/npm/bin:$PATH
+
 export EDITOR=vi
 
 # ssh-agent
