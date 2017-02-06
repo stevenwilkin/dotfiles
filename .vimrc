@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 set nocompatible
 
 " Text Formatting
