@@ -17,7 +17,7 @@ export PATH=~/packages/google_appengine/go_appengine:$PATH
 export EDITOR=vi
 
 # ssh-agent
-[  -z "$SSH_CLIENT" ] && . $HOME/.ssh-agent
+[ -z "$SSH_CLIENT" ] && [ -f $HOME/.ssh-agent ] && . $HOME/.ssh-agent
 alias keyon="ssh-add -t 10800"
 alias keyoff='ssh-add -D'
 alias keylist='ssh-add -l'
