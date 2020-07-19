@@ -2,7 +2,7 @@
 
 THIS="$(basename "$(test -L "$0" && readlink "$0" || echo "$0")")"
 
-for FILE in `find . -type f -depth 1 | grep -v $THIS`
+for FILE in `find . -maxdepth 1 -type f | grep -v $THIS`
 do
 	cp $FILE ~
 done
