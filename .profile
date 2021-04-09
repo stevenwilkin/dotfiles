@@ -73,7 +73,7 @@ eval "$(rbenv init -)"
 # bundler
 alias be="bundle exec"
 function bo {
-	cd `bundle show $1`
+	cd `bundle info $1 | awk '/Path/ { print $2 }'`
 }
 
 # bundle binstubs
