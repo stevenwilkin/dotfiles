@@ -46,6 +46,7 @@ alias dh='df -h'
 alias gs='git status'
 alias ga='git add'
 alias gd='git diff'
+alias gdc='git diff --cached'
 alias gc='git commit'
 
 # svn
