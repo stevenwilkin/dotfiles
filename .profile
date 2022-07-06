@@ -1,18 +1,10 @@
-# HomeBrew
-export PATH=/usr/local/bin:$PATH
-
 # npm
 export PATH=/usr/local/share/npm/bin:$PATH
 
 # Go
 export GOPATH=~/code/go
 export PATH=~/code/go/bin:$PATH
-
-# Go1.4beta1
 export PATH=/usr/local/go/bin:$PATH
-
-# Go AppEngine
-export PATH=~/packages/google_appengine/go_appengine:$PATH
 
 export EDITOR=vi
 
@@ -31,10 +23,6 @@ fi
 alias pg='ps waux | grep -v grep | grep'
 alias hg='history | grep'
 
-function sg {
-	grep -r $1 * | grep -v svn
-}
-
 # ls
 alias ll='ls -l'
 alias la='ls -la'
@@ -48,16 +36,6 @@ alias ga='git add'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gc='git commit'
-
-# svn
-function saa {
-    svn st | grep '^?' | awk '{print $2}' | xargs svn add 
-}
-
-alias st="svn st"
-alias sd="svn diff | less"
-
-export SVN_EDITOR=svneditor
 
 # screen on OS X
 alias screen='export SCREENPWD=$(pwd); /usr/bin/screen'
