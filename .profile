@@ -37,14 +37,6 @@ alias gd='git diff'
 alias gdc='git diff --cached'
 alias gc='git commit'
 
-# screen on OS X
-alias screen='export SCREENPWD=$(pwd); /usr/bin/screen'
-case "$TERM" in 
-	'screen')
-		 cd $SCREENPWD
-		 ;; 
-esac
-
 # rbenv
 eval "$(rbenv init -)"
 
@@ -64,3 +56,7 @@ alias c='./script/rails console'
 # search bash history with up/down arrow
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
+
+if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+fi
