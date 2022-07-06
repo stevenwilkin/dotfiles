@@ -38,6 +38,7 @@ alias gdc='git diff --cached'
 alias gc='git commit'
 
 # rbenv
+export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
 # bundler
